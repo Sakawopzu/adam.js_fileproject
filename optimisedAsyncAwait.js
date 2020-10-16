@@ -35,4 +35,4 @@ const thingsToDo = [
 	{ text: `${'[ADAM.js]'.green} Good? Bad? Well, either way, here's something YOU should know.`, timeout: 4000 },
 	{ text: `${'[ADAM.js]'.green} You certainly made ${`MY`.yellow.bold} day, by running me!\n` },
 ];
-runTaskList(thingsToDo);
+(async function () { await runTaskList(thingsToDo); })(); // this is called an IIFE - Immediately Invoked Function Expression
