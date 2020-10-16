@@ -1,6 +1,5 @@
 const colors = require('colors');
 const prompt = require('prompt-sync')({sigint: true});
-const sleep = require('system-sleep');
 
 const adamjsname = `ADAM.js`
 const adamjsquote = `[ADAM.js]`
