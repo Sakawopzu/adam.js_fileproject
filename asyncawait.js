@@ -16,7 +16,7 @@ function performTimeout(ms) {
 }
 
 /**
- * A list of shit for the program to do.
+ * A list of stuff for the program to do.
  * If there's no text to print, the program should just ignore printing text.
  * Same thing for timeout, if there's no timeout, the program should just ignore waiting.
  * 
